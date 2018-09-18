@@ -11,13 +11,76 @@
     </head>
     <body>
         <img src="images/poster1.jpg" width="100%">
-        <table>
+        <table id="simple-table">
+            <th>NEW ARTICLES</th>
             <tr>
                 <td></td>
-                <td></td>
+                <td>Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+                <td>Thursday</td>
+                <td>Friday</td>
+                <td>Saturday</td>
+                <td>Sunday</td>
             </tr>
-        </table>
-
+            <tr>
+                <td></td>
+                <td>3</td>
+                <td>2</td>
+                <td>3</td>
+                <td>1</td>
+                <td>4</td>
+                <td>0</td>
+                <td>1</td>
+            </tr>
+        </table id="simple-table">
+        <hr />
+        <table id="complex-table">
+            <thead>
+                <th>LIVE Q+A</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <th scope="col">Monday</th scope="col">
+                    <th scope="col">Tuesday</th scope="col">
+                    <th scope="col">Wednesday</th scope="col">
+                    <th scope="col">Thursday</th scope="col">
+                    <th scope="col">Friday</th scope="col">
+                    <th scope="col">Saturday</th scope="col">
+                    <th scope="col">Sunday</th scope="col">
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>9:00 AM</td>
+                    <td>LIVE</td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="3">OFFLINE</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>LIVE</td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="3">OFFLINE</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>LIVE</td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="3">OFFLINE</td>
+                </tr>
+                <tr>
+                    <td>12:00 PM</td>
+                    <td></td>
+                    <td colspan="2">OFFLINE</td>
+                    <td colspan="2">LIVE</td>
+                </tr>
+            </tfoot>
+        </table id="complex-table">
     </body>
     <footer>
         <p>Copyright&copy;2018</p>
