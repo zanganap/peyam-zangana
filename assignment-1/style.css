@@ -1,0 +1,39 @@
+/** Movie Reviews styles **/
+header {
+    background-color: rgba(255, 212, 130, 0.67); 
+    height: 6em;
+    text-align: center;
+    line-height: 6em;
+}
+nav {
+    background-color: #f26666; 
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+}
+nav a:link {
+    color: black;
+}
+nav a:visited {
+    color: black;
+}
+main {
+    background-color: white; 
+    min-height: 20em;
+    line-height: 2em;
+    
+}
+body {
+    background-color: black; 
+    margin: 0 auto; 
+    width: 90%;
+}
+footer {
+    background-color: #f26666; 
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+}
+* {
+    margin: 0
+}
