@@ -10,7 +10,7 @@
         <title>Star Wars Fanpage!</title>
     </head>
     <body>
-        <img src="images/poster1.jpg" width="100%">
+        <img src="images/poster1.jpg" alt="homepage" width="100%">
         <table id="simple-table">
             <th>NEW ARTICLES</th>
             <tr>
@@ -33,54 +33,49 @@
                 <td>0</td>
                 <td>1</td>
             </tr>
-        </table id="simple-table">
+        </table>
         <hr />
         <table id="complex-table">
+            <table border="2">
             <thead>
                 <th>LIVE Q+A</th>
             </thead>
             <tbody>
                 <tr>
                     <td></td>
-                    <th scope="col">Monday</th scope="col">
-                    <th scope="col">Tuesday</th scope="col">
-                    <th scope="col">Wednesday</th scope="col">
-                    <th scope="col">Thursday</th scope="col">
-                    <th scope="col">Friday</th scope="col">
-                    <th scope="col">Saturday</th scope="col">
-                    <th scope="col">Sunday</th scope="col">
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                    <th scope="col">Friday</th>
+                    <th scope="col">Saturday</th>
+                    <th scope="col">Sunday</th>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
                     <td>9:00 AM</td>
-                    <td>LIVE</td>
-                    <td></td>
-                    <td></td>
-                    <td colspan="3">OFFLINE</td>
+                    <td rowspan="2">LIVE</td>
+                    <td colspan="6">OFFLINE</td>
                 </tr>
                 <tr>
                     <td>10:00 AM</td>
-                    <td>LIVE</td>
-                    <td></td>
-                    <td></td>
-                    <td colspan="3">OFFLINE</td>
+                    <td colspan="6">OFFLINE</td>
                 </tr>
                 <tr>
                     <td>11:00 AM</td>
+                    <td>OFFLINE</td>
                     <td>LIVE</td>
-                    <td></td>
-                    <td></td>
-                    <td colspan="3">OFFLINE</td>
+                    <td colspan="5">OFFLINE</td>
                 </tr>
                 <tr>
                     <td>12:00 PM</td>
-                    <td></td>
-                    <td colspan="2">OFFLINE</td>
-                    <td colspan="2">LIVE</td>
+                    <td colspan="3">OFFLINE</td>
+                    <td>LIVE</td>
+                    <td colspan="3">OFFLINE</td>
                 </tr>
             </tfoot>
-        </table id="complex-table">
+        </table>
     </body>
     <footer>
         <p>Copyright&copy;2018</p>
